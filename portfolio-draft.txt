@@ -1,0 +1,58 @@
+
+    <!-- Portfolio Main Content -->
+    <section class="portfolio">
+        <h1>Emily Bunnapradist</h1>
+        <h2>Portfolio</h2>
+
+        <!-- Education Section -->
+        <section class="section" id="education">
+            <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+            <div class="content">
+                <ul>
+                    <li><strong>Master’s in Computer Science (AI)</strong> - Stanford University, GPA: 4.03 (2023 – 2024)</li>
+                    <li><strong>Bachelor’s in Mathematics & Symbolic Systems (Neuroscience)</strong> - Stanford University (2020 – 2024)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Teaching Section -->
+        <section class="section" id="teaching">
+            <h3><i class="fas fa-chalkboard-teacher"></i> Teaching</h3>
+            <div class="content">
+                <ul>
+                    <li>Teaching Assistant, <strong>CS 224V: Conversational Virtual Assistants with Deep Learning</strong> (2022 – Present)</li>
+                    <li>Co-Instructor, <strong>CS 25: Transformers United</strong> (2024)</li>
+                    <li>Teaching Assistant, <strong>CS 181: Computers, Ethics, and Public Policy</strong> (2022 – Present)</li>
+                    <li>Grader, <strong>MATH 51: Linear Algebra, MVC, and Modern Applications</strong> (2021 – Present)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Research Section -->
+        <section class="section" id="research">
+            <h3><i class="fas fa-flask"></i> Research</h3>
+            <div class="content">
+                <ul>
+                    <li><strong>Investigating Memory Mechanisms of Toy Language Models</strong> - Stanford NLP Group (2024)</li>
+                    <li><strong>Scaled-Up Social Learning through Reinforcement Learning</strong> - Stanford AI Lab (2023)</li>
+                    <li><strong>Modeling of Cortical Network Dynamics for Neuroscience</strong> - NYU Courant Institute (2022)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <h3><i class="fas fa-project-diagram"></i> Projects</h3>
+            <div class="content">
+                <ul>
+                    <li><strong>Visualizations and Analyses of Real-Time Neural Data for Vision</strong> - Stanford Artificial Retina Project (2022 – 2023)</li>
+                    <li><strong>Interchange Interventions in Vision Models</strong> - CS 231N Final Project (2024)</li>
+                    <li><strong>Investigating Internal Representations of Garden Path Sentences in LLMs</strong> - CS 224U Final Project (2023)</li>
+                    <li><strong>Are LLMs Smarter than a 5th Grader? Mathematical Cognition in LLMs</strong> - PSYCH 209 Project (2023)</li>
+                </ul>
+            </div>
+        </section>
+    </section>
+
+</body>
+</html>

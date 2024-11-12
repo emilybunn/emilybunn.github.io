@@ -63,37 +63,167 @@ nav ul li a:hover {
     padding: 50px;
 }
 
+/* Profile Section */
 .profile {
     display: flex;
-    align-items: center;
-    max-width: 800px;
-    gap: 20px; /* Space between photo and blurb */
+    align-items: flex-start;   /* Align photo with top of text */
+    gap: 40px;                 /* Space between photo and text */
 }
 
+/* Profile Info Section */
+.profile-info {
+    max-width: 600px;         /* Set a max width for the text */
+}
+
+/* Profile Photo Styling */
 .profile-photo {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
-.blurb {
-    max-width: 500px;
-}
-
-.blurb h1 {
-    font-size: 2em;
-    /* color: #B6D1A0; */
-    /* color: #A3CC69; */
-    /* color: #99BF63; */
+/* Name Styling */
+h1 {
+    font-size: 2.0em;
     color: #7C9B50;
+}
+
+/* Blurb Section */
+.blurb {
+    font-size: 1.1em;
+    color: #666;
 }
 
 .blurb p {
+    margin: 0;
     font-size: 1.1em;
-    color: #7C9B50;
+    color: #666;
 }
 
 .home i {
     color: #F9F7E4;
     margin-right: 5px; /* Adds a little space between the icon and text */
+}
+
+.home i:hover {
+    color: pink;
+    margin-right: 5px; /* Adds a little space between the icon and text */
+}
+
+
+.portfolio {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.portfolio h2 {
+    font-size: 1rem;
+    text-align: center;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.section h3 {
+    font-size: 1.25rem;
+    color: #444;
+    display: flex;
+    align-items: center;
+}
+
+.section h3 i {
+    color: #ff6347;
+    margin-right: 0.5rem;
+}
+
+.content ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.content ul li {
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+}
+
+.content ul li strong {
+    color: #333;
+}
+
+.content ul li:before {
+    content: "• ";
+    color: #ff6347;
+    font-weight: bold;
+}
+
+/* Section Titles */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.0em;
+    margin-bottom: 20px;
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 50px;
+}
+
+/* Content Layout */
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Description Styling */
+.description {
+    width: 40%;
+    padding-right: 20px;
+    font-size: 1.1em;
+    color: #444;
+}
+
+/* Details Styling */
+.details {
+    width: 50%;
+}
+
+.details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.details ul li {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.details ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.details ul li a:hover {
+    text-decoration: underline;
 }
